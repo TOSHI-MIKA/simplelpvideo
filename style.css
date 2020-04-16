@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.video{
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 0;
+  z-index: -100;
+  background-size: cover;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar a{
+  color: white;
+}
+
+.nav-item{
+  padding: 10px;
+}
+
+
+.contents{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%,-30%);
+  color: #fff;
+  padding:20px;
+  width:500px;
+  height:500px;
+}
+
+.contents-d{
+  padding:20px;
+  width:auto;
+  height: 300px;
+  text-align: center;
+  
+}
+
+.contents a{
+ color: #fff;
+}
+
+.central{
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.p:after{
+  content: "▶︎";
+  padding-left: 10px;
+}
+
+.input-button{
+  background: #fff;
+  padding: 5px 20px;
+  margin: auto;
+  height: 3em;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+.input-button button{
+  background: #bbdadc;
+  color: #fff;
+}
+
+.input-button:hover{
+  background: #bbdadc;
+  color: #ffffff;
+}
+
+.input-mail{
+  height: 3em;
+  border: none;
+  border-left: none;
+  border-top-left-radius: 5px;
+}
+
+.input-mail:valid ~ .input-button button{
+  background: #008489;
+}
+
+
+.navbar nav-item:hover{
+  border-bottom: 1px solid #ffffff;
+}
+
+.c-gray{
+
+background-color: #ebebeb;
+padding: 100px 80px;
+
+}
+
+.c-green{
+
+background-color: #2A6C71;
+color: white;
+padding: 100px 80px;
+
+}
+
+.input-group{
+
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+li{
+
+list-style: none;
+
+}
+
+
+.img-fluid{
+
+  margin: auto;
+}
+
+
+.container{
+
+  padding:50px 5px 70px 5px;
+
+}
+
+
+footer{
+
+  padding-bottom: 0em;
+}
+
+@media screen and (max-width:1150px){
+
+  
+}
+
+@media screen and (max-width:780px){
+
+.global-nav{display: none;
+}
+
+.bottomBar{
+  position: sticky;
+  bottom: 0;
+  z-index: 99;
+  text-align: right;
+  background: white;
+  padding: 20px;
+  display: block;
+}
+
+.bottomBarForm{
+  display: inline-block;
+}
+
+i{display: none;
+
+}
+
+}
+
+.fa-check-circle{
+  font-size: 4em;
+}
+
+button{
+
+  font-size: 1em;
+
+}
+
+h1 p{
+
+text-align: center;
+
+
+}
+
+h1{
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+h4{
+
+text-align: center;
+
+}
